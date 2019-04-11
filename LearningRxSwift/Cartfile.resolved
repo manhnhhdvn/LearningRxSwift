@@ -1,0 +1,6 @@
+github "Alamofire/Alamofire" "4.8.2"
+github "Alamofire/AlamofireImage" "3.5.2"
+github "ReactiveX/RxSwift" "4.5.0"
+github "RxSwiftCommunity/RxAlamofire" "8332895e218d4c03d483663fb85ce34bbcf12766"
+github "RxSwiftCommunity/RxDataSources" "3.1.0"
+github "antitypical/Result" "4.1.0"
