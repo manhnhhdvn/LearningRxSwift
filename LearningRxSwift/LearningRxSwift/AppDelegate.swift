@@ -9,6 +9,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         ModelLayer.shared.initDatabase()
+//        SimpleRx.shared.variable()
+//        SimpleRx.shared.subjects()
+        SimpleRx.shared.basicObservables()
         
         return true
     }

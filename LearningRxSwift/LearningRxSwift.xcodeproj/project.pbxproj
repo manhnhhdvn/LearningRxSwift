@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65E4150D225F2D4D0039FBE3 /* SimpleRx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4150C225F2D4D0039FBE3 /* SimpleRx.swift */; };
 		A94E70B31FE7240900CE0773 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E70B21FE7240900CE0773 /* CustomError.swift */; };
 		A963E9241FD769F00054973B /* PersistanceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963E9231FD769F00054973B /* PersistanceLayer.swift */; };
 		A963E9481FD76AEB0054973B /* DatabaseExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A963E9461FD76AEB0054973B /* DatabaseExample.xcdatamodeld */; };
@@ -84,6 +85,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		65E4150C225F2D4D0039FBE3 /* SimpleRx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRx.swift; sourceTree = "<group>"; };
 		A94E70B21FE7240900CE0773 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		A963E9231FD769F00054973B /* PersistanceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceLayer.swift; sourceTree = "<group>"; };
 		A963E9471FD76AEB0054973B /* DatabaseExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatabaseExample.xcdatamodel; sourceTree = "<group>"; };
@@ -153,6 +155,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65E4150B225F2D260039FBE3 /* SimpleExamples */ = {
+			isa = PBXGroup;
+			children = (
+				65E4150C225F2D4D0039FBE3 /* SimpleRx.swift */,
+			);
+			path = SimpleExamples;
+			sourceTree = "<group>";
+		};
 		A963E9491FD76BA20054973B /* DatabaseExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +202,7 @@
 		A99EA80D1FAA918E004DF683 /* LearningRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				65E4150B225F2D260039FBE3 /* SimpleExamples */,
 				A9B063F81FC62E4D008450AA /* ModelLayer */,
 				A963E9491FD76BA20054973B /* DatabaseExample */,
 				A9B063EF1FC62911008450AA /* NetworkExample */,
@@ -340,7 +351,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Jon Bott";
+				ORGANIZATIONNAME = ManhNH;
 				TargetAttributes = {
 					A99EA80A1FAA918E004DF683 = {
 						CreatedOnToolsVersion = 9.0.1;
@@ -412,6 +423,7 @@
 				A963E94C1FD76BF70054973B /* DatabaseExampleViewController.swift in Sources */,
 				A99EA85C1FAB90EC004DF683 /* TasksExamplePresenter.swift in Sources */,
 				A9B063F71FC62E1F008450AA /* Message.swift in Sources */,
+				65E4150D225F2D4D0039FBE3 /* SimpleRx.swift in Sources */,
 				A99AEEA71FE19CA9000BC6C8 /* PhotoDescriptionTranslation.swift in Sources */,
 				A9B063F21FC62C51008450AA /* NetworkExampleViewController.swift in Sources */,
 				A9FD408A1FE713CF00024291 /* Posting.swift in Sources */,
