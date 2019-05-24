@@ -11,7 +11,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ModelLayer.shared.initDatabase()
 //        SimpleRx.shared.variable()
 //        SimpleRx.shared.subjects()
-        SimpleRx.shared.basicObservables()
+//        SimpleRx.shared.basicObservables()
+        SimpleRx.shared.myTest()
         
         return true
     }
