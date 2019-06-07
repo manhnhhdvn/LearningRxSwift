@@ -94,6 +94,10 @@ extension SimpleRx {
         observable.subscribe(onNext: { someString in
             print("new value: \(someString)")
         }).disposed(by: bag)
+        
+        observable.asObservable().subscribe(onNext: { someString in
+            print("ZZZZ: \(someString)")
+        }).disposed(by: bag)
 
         let observer = observable.subscribe(onNext: { someString in
             print("Another Subscriber: \(someString)")

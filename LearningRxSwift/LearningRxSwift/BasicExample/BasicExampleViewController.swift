@@ -61,7 +61,6 @@ extension BasicExampleViewController {
                               title: json["title"] as! String,
                               body: json["title"] as! String)
         return posting
-
     }
 }
 
