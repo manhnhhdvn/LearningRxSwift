@@ -94,7 +94,7 @@ extension SimpleRx {
         observable.subscribe(onNext: { someString in
             print("new value: \(someString)")
         }).disposed(by: bag)
-        
+
         observable.asObservable().subscribe(onNext: { someString in
             print("ZZZZ: \(someString)")
         }).disposed(by: bag)
@@ -118,8 +118,8 @@ extension SimpleRx {
 //                print(element)
 //            })
 //            .disposed(by: disposeBag)
-        
-        
+
+
 //        struct Student {
 //            var name: String
 //            var score: Variable<Int>
@@ -145,8 +145,8 @@ extension SimpleRx {
 //        studentA.score.value = 25
 //        studentB.score.value = 30
 //        studentC.score.value = 35
-        
-        
+
+
 //        let disposeBag = DisposeBag()
 //
 //        let observable = Observable.of(2, 3, 4, 5, 6 ,7)
@@ -155,8 +155,8 @@ extension SimpleRx {
 //                print(event)
 //            }
 //            .disposed(by: disposeBag)
-        
-        
+
+
 //        let disposeBag = DisposeBag()
 //
 //        let one = Observable.of(1, 2, 3)
@@ -182,7 +182,7 @@ extension SimpleRx {
 //            }
 //            .disposed(by: disposeBag)
 
-        
+
 //        let disposeBag = DisposeBag()
 //
 //        let firstObservable = PublishSubject<String>()
@@ -200,8 +200,8 @@ extension SimpleRx {
 //        secondObservable.onNext("secondObservable 3")
 //        firstObservable.onNext("firstObservable 2")
 //        secondObservable.onNext("secondObservable 4")
-        
-        
+
+
 //        let disposeBag = DisposeBag()
 //
 //        let one = Observable.of(1, 2, 3)
@@ -216,8 +216,8 @@ extension SimpleRx {
 //                print("event: \(event)")
 //            }
 //            .disposed(by: disposeBag)
-        
-        
+
+
 //        func divideNumber(_ a: Int, _ b: Int) -> Single<Int> {
 //            return Single.create { single in
 //                if b == 0 {

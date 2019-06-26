@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65E4150D225F2D4D0039FBE3 /* SimpleRx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4150C225F2D4D0039FBE3 /* SimpleRx.swift */; };
+		65E82E1F22BA2A6B0018FC46 /* TraitsRx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E82E1E22BA2A6B0018FC46 /* TraitsRx.swift */; };
 		A94E70B31FE7240900CE0773 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E70B21FE7240900CE0773 /* CustomError.swift */; };
 		A963E9241FD769F00054973B /* PersistanceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963E9231FD769F00054973B /* PersistanceLayer.swift */; };
 		A963E9481FD76AEB0054973B /* DatabaseExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A963E9461FD76AEB0054973B /* DatabaseExample.xcdatamodeld */; };
@@ -86,6 +87,7 @@
 
 /* Begin PBXFileReference section */
 		65E4150C225F2D4D0039FBE3 /* SimpleRx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRx.swift; sourceTree = "<group>"; };
+		65E82E1E22BA2A6B0018FC46 /* TraitsRx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitsRx.swift; sourceTree = "<group>"; };
 		A94E70B21FE7240900CE0773 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		A963E9231FD769F00054973B /* PersistanceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceLayer.swift; sourceTree = "<group>"; };
 		A963E9471FD76AEB0054973B /* DatabaseExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatabaseExample.xcdatamodel; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		65E4150B225F2D260039FBE3 /* SimpleExamples */ = {
 			isa = PBXGroup;
 			children = (
+				65E82E1E22BA2A6B0018FC46 /* TraitsRx.swift */,
 				65E4150C225F2D4D0039FBE3 /* SimpleRx.swift */,
 			);
 			path = SimpleExamples;
@@ -405,6 +408,7 @@
 			files = (
 				A9F247441FC64E1D00874BF3 /* TranslationLayer.swift in Sources */,
 				A9B063F51FC62E00008450AA /* NetworkExamplePresenter.swift in Sources */,
+				65E82E1F22BA2A6B0018FC46 /* TraitsRx.swift in Sources */,
 				A9FD40881FE712FB00024291 /* Friend.swift in Sources */,
 				A9F6CBB01FC5F5F40032C949 /* ReactiveUIViewController.swift in Sources */,
 				A9B064011FC630EE008450AA /* NetworkExampleTableViewCell.swift in Sources */,
